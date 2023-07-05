@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct DefaultIndicatorView: View {
 
     let count: Int
@@ -22,6 +23,7 @@ struct DefaultIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct DefaultIndicatorItemView: View {
 
     let index: Int

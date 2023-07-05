@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct FlickeringDotsIndicatorView: View {
 
     let count: Int
@@ -22,6 +23,7 @@ struct FlickeringDotsIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct FlickeringDotsIndicatorItemView: View {
 
     let index: Int

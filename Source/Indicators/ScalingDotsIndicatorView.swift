@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ScalingDotsIndicatorView: View {
 
     let count: Int
@@ -22,6 +23,7 @@ struct ScalingDotsIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct ScalingDotsIndicatorItemView: View {
 
     let index: Int

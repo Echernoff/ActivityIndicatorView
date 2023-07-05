@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ArcsIndicatorView: View {
 
     let count: Int
@@ -23,6 +24,7 @@ struct ArcsIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct ArcsIndicatorItemView: View {
 
     let lineWidth: CGFloat

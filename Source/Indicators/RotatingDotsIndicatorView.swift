@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct RotatingDotsIndicatorView: View {
 
     let count: Int
@@ -22,6 +23,7 @@ struct RotatingDotsIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct RotatingDotsIndicatorItemView: View {
 
     let index: Int

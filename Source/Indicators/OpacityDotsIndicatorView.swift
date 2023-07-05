@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct OpacityDotsIndicatorView: View {
 
     let count: Int
@@ -23,6 +24,7 @@ struct OpacityDotsIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct OpacityDotsIndicatorItemView: View {
 
     let index: Int

@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct GrowingArcIndicatorView: View {
 
     let color: Color
@@ -33,6 +34,7 @@ struct GrowingArcIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct GrowingArc: Shape {
 
     var maxLength = 2 * Double.pi - 0.7

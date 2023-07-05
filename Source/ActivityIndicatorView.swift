@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 public struct ActivityIndicatorView: View {
 
     public enum IndicatorType {

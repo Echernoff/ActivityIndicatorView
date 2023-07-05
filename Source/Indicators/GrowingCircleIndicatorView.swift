@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct GrowingCircleIndicatorView: View {
 
     @State private var scale: CGFloat = 0

@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct EqualizerIndicatorView: View {
 
     let count: Int
@@ -22,6 +23,7 @@ struct EqualizerIndicatorView: View {
     }
 }
 
+@available(iOS 15.0, *)
 struct EqualizerIndicatorItemView: View {
 
     let index: Int
